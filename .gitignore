@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+env/
+
+# Node
+node_modules/
+frontend/dist/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+backend/.env
+
+# Database
+*.db
+*.sqlite3
+
+# Model artifacts (regenerated on train)
+backend/models/*.pkl
+backend/models/*.png
+!backend/models/ml_model.py
+!backend/models/prediction.py
+!backend/models/user.py
+!backend/models/__init__.py
+
+# Logs
+*.log
