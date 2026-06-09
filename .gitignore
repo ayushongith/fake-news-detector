@@ -41,3 +41,5 @@ backend/models/*.png
 
 # Logs
 *.log
+
+.vercel
