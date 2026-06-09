@@ -1,0 +1,11 @@
+[providers]
+python = true
+
+[phases.setup]
+nixPkgs = ["gcc"]
+
+[phases.install]
+cmds = ["pip install -r requirements.txt"]
+
+[start]
+cmd = "bash start.sh"
